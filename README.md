@@ -27,7 +27,7 @@ pip install -e .
 
 The entry points are run_train_2d.sh and run_train_patch.sh for 2D and 3D respectively. You may need to modify the dataset classes to fit your data format. Add --parallel flag to enable multi-GPU training.
 
-We also provide our pretrained 2D and 3D models in this [box folder](https://ucdavis.box.com/s/3iob1sdrxsbcncywb0nnci0r9iijunj6). 
+We also provide our pretrained 2D and 3D models in this [box folder](https://ucdavis.box.com/s/izkvp1g18n7ly9tamj3twrw06qar3tsk). 
 
 ## 2D Image reconstruction
 
