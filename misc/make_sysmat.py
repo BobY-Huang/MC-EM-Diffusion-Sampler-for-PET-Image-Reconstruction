@@ -316,8 +316,8 @@ def normalize_sparse_rows(sparse_matrix):
 sigma = (np.array((1.6, 0.8, 0.8)) / (2.35 * np.array(voxsize))).tolist()
 P = normalize_sparse_rows(make_sparse_gaussian_matrix(imsize, sigma, dtype=np.float32)).tocoo()
 
-# save_npz('ipsf_nontof_nx-2d.npz', P)
+save_npz('ipsf_nontof_nx-2d.npz', P)
 
 # MATLAB 
-P_csc = P.astype(np.float64).tocsc()
-sio.savemat('ipsf_nontof_nx-2d.mat', {"P": P_csc}, do_compression=True)
+# P_csc = P.astype(np.float64).tocsc()
+# sio.savemat('ipsf_nontof_nx-2d.mat', {"P": P_csc}, do_compression=True)

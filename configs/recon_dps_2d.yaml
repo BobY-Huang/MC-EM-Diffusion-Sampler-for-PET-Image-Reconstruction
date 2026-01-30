@@ -46,7 +46,7 @@ model:
 
 ckpt_path: /path/to/your/checkpoint/ckpt_50000.pt
 
-phantom: ./phantom/bern/345_027.npz
+phantom: ./phantom/bern_putamen/350_020.npz
 system_matrix: ./misc/G_nontof_nx-2d_481x480_128x128_1.65mm.npz
 ipsf_model: ./misc/ipsf_nontof_nx-2d.npz
 count: 0.4
